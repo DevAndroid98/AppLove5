@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/mauhong"
+    android:id="@+id/lvhong"/>
+
+    <item android:title="@string/mauvang"
+        android:id="@+id/lvvang"/>
+
+    <item android:title="@string/maudo"
+        android:id="@+id/lvdo"/>
+    <item android:title="@string/maudo1"
+        android:id="@+id/lvdo1"/>
+    <item android:title="@string/mauxanh"
+        android:id="@+id/lvxanh"/>
+
+    <item android:title="@string/mauhong1"
+        android:id="@+id/lvxanh1"/>
+
+    <item android:title="@string/mautim"
+        android:id="@+id/lvtim"/>
+
+
+</menu>

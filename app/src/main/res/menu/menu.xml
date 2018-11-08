@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/set_name"
+    android:id="@+id/noidung"
+    tools:ignore="HardcodedText" />
+    <item android:id="@+id/ngayyeu"
+        android:title="@string/setDateLove"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/hinh"
+        android:title="@string/setColor"
+        tools:ignore="HardcodedText" />
+</menu>

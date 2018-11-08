@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Ngày Sinh Nhật"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/pink"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/ngaysinh1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pink"
+        android:hint="Ngày sinh"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/chonngay1"
+        android:background="@drawable/style1"
+        android:layout_gravity="center_horizontal"
+        android:text="Chọn ngày"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        tools:ignore="HardcodedText" />
+
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/luu"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/style1"
+            android:layout_gravity="center"
+            android:text="Thêm"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:id="@+id/huybo"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/style1"
+            android:layout_gravity="center"
+            android:text="Hủy bỏ"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESIGN BY DevAndroid"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

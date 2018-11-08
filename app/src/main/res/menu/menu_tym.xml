@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/mauhong"
+    android:id="@+id/hong"
+    tools:ignore="HardcodedText" />
+    <item android:title="@string/mautim"
+        android:id="@+id/tim"
+        tools:ignore="HardcodedText" />
+    <item android:title="@string/mauvang"
+        android:id="@+id/vang"
+        tools:ignore="HardcodedText" />
+    <item android:title="@string/maunau"
+        android:id="@+id/nau"
+        tools:ignore="HardcodedText" />
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="35dp">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtdate"
+            android:enabled="false"
+            android:backgroundTint="@color/d81b60"
+            android:textColor="@color/d81b60"
+            android:hint="@string/chonngay"
+            android:textColorHint="@color/d81b60"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/btnPicker"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/date"/>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/d81b60"
+        android:textColor="@color/d81b60"
+        app:counterMaxLength="80"
+        app:counterEnabled="true">
+        <EditText
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:backgroundTint="@color/d81b60"
+            android:id="@+id/edtNhatKi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kiniem"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" >
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/click"
+                android:textAllCaps="false"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:textColor="@color/d81b60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chọn ảnh"/>
+            <ImageView
+                android:id="@+id/img_anh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/background"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textColor="@color/d81b60"
+            android:text="@string/them"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/them"/>
+        <Button
+            android:id="@+id/thoat"
+            android:textColor="@color/d81b60"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/thoat"/>
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/xoa"
+            android:textColor="@color/d81b60"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/xoa"/>
+    </LinearLayout>
+
+</LinearLayout>

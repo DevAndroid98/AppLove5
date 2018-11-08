@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:title="@string/sinhnhat"
+       android:id="@+id/age"
+       tools:ignore="HardcodedText" />
+    <item android:title="@string/mauchu"
+        android:id="@+id/colortext"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/font"
+        android:title="@string/fontchu"
+        tools:ignore="HardcodedText" />
+    <item android:title="@string/maunen"
+        android:id="@+id/colorbackground"
+        tools:ignore="HardcodedText" />
+</menu>

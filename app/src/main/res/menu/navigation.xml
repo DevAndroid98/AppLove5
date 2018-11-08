@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="Tính năng"
+    tools:ignore="HardcodedText">
+
+    <menu>
+        <item android:title="@string/thongbao"
+            android:icon="@drawable/icons8_love_48"
+            android:id="@+id/thongbao"
+            tools:ignore="HardcodedText" />
+        <item android:title="@string/amnhac"
+            android:icon="@drawable/icons8_love_48"
+            android:id="@+id/amnhac"
+            tools:ignore="HardcodedText" />
+        <item android:title="@string/cuasonoi"
+            android:icon="@drawable/icons8_love_48"
+            android:id="@+id/cuasonoi"
+            tools:ignore="HardcodedText" />
+        <item android:title="@string/donghotinhyeu"
+            android:icon="@drawable/icons8_love_48"
+            android:id="@+id/dongho"
+            tools:ignore="HardcodedText" />
+
+        <item android:title="@string/hinhnen"
+            android:icon="@drawable/icons8_love_48"
+            android:id="@+id/hinhnen"
+            tools:ignore="HardcodedText" />
+
+    </menu>
+</item>
+    <item android:title="@string/thoat"
+        android:id="@+id/exit"
+        tools:ignore="HardcodedText" />
+</menu>

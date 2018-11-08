@@ -3,4 +3,35 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+
+    Color SplashScreen
+    <color name="d81b60">#d81b60</color>
+    <color name="a00037">#a00037</color>
+    <color name="ff5c8d">#ff5c8d</color>
+
+    Color
+
+    <color name="white">#FFF</color>
+
+
+    <color name="pink">#FF6C61</color>
+
+    <color name="a1">#5D4037</color>
+    <color name="a2">#7B1FA2</color>
+    <color name="a3">#FF5252</color>
+    <color name="a4">#FF9800</color>
+
+    <color name="purple">#880e4f</color>
+    <color name="pinks">#d81b60</color>
+
+    <color name="hong">#ec2994</color>
+
+    <color name="spanscreen">#de5d54</color>
+    <color name="red">#f44336</color>
+
+
+    <color name="colorman">#E01744</color>
+    <color name="colorred">#FF220C</color>
 </resources>

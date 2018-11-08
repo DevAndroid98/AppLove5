@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_0"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_a"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_b"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_c"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_d"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_e"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_f"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_g"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_h"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_i"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_k"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_k"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_l"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/font_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đếm ngày yêu thương"
+                    android:textStyle="bold"
+                    android:textColor="@color/pink"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    tools:ignore="HardcodedText" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

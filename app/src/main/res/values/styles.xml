@@ -10,9 +10,24 @@
 
     <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/d81b60</item>
+        <item name="colorPrimaryDark">@color/d81b60</item>
+        <item name="colorAccent">@color/ff5c8d</item>
+    </style>
+
+    <style name="ProgressBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/d81b60</item>
+        <item name="colorPrimaryDark">@color/d81b60</item>
+        <item name="colorAccent">@color/d81b60</item>
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+
     </style>
 
 </resources>

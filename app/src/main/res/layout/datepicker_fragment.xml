@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_black"
+                android:scaleType="centerCrop"
+                android:alpha="0.2"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/xxx"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_love"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/love_hong"/>
+                    <TextView
+                        android:id="@+id/txtnam"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_love1"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/love_hong"/>
+                    <TextView
+                        android:id="@+id/txtthang"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_love2"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/love_hong"/>
+                    <TextView
+                        android:id="@+id/txtngay"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_love3"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/love_hong"/>
+                    <TextView
+                        android:id="@+id/txtgio"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_love4"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/love_hong"/>
+                    <TextView
+                        android:id="@+id/txtphut"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_love5"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/love_hong"/>
+                    <TextView
+                        android:id="@+id/txtgiay"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_below="@id/xxx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/nam"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Năm"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/thang"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Tháng"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ngay"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Ngày"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/gio"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Giờ"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/phut"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Phút"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/giay"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Giây"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtNgayYeu"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date">
+
+            </TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
